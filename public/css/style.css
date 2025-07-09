@@ -1,0 +1,360 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.nada {
+	font-family: "Sigmar", serif;
+}
+
+/* ======================================Navbar===================================== */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 62px;
+	background-color: #0d79a0;
+	padding: 0px 25px;
+	box-shadow: none;
+}
+.navbar img {
+	width: 170px;
+	height: 60px;
+}
+.links a {
+	padding: 0px 9px;
+	color: white;
+	text-decoration: none;
+}
+.links a:hover {
+	/* background-color: rgb(197, 197, 58); */
+	background-color: #3c94b4;
+	padding: 9px;
+	border-radius: 20px;
+}
+.links .button {
+	padding: 10px;
+	margin-left: 5px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(247, 132, 170);
+	font-size: 15px;
+	cursor: pointer;
+}
+.links .button:hover {
+	background-color: rgb(247, 132, 170, 0.913);
+	transition: 0.3s;
+}
+/* ======================================Navbar===================================== */
+/* ================================================================================= */
+/* ====================================Footer======================================== */
+footer {
+	height: 300px;
+	background-color: #0d79a0;
+	border-radius: 50px 50px 0 0;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-links a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+.footer-title {
+	color: white;
+	margin-bottom: 20px;
+}
+.footer-icons {
+	font-size: 30px;
+}
+
+/* ====================================Footer======================================== */
+/* ==================================================================================== */
+/* ===============================Header========================================== */
+header {
+	height: 350px;
+	background-color: #0d79a0;
+	border-radius: 0 0 40px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+header h1 {
+	animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
+	padding-bottom: 10px;
+}
+
+header .button-signup {
+	margin-top: 20px;
+	padding: 10px;
+	width: 120px;
+	height: 50px;
+	border-radius: 40px;
+	border: none;
+	background-color: rgb(247, 132, 170);
+	font-size: 16px;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+header .button-signup:hover {
+	background-color: rgba(247, 132, 170, 0.913);
+	transition: 0.3s;
+}
+/* ====================================Header============================================= */
+/* ========================================================================================== */
+/* ==================================Content============================================== */
+.home {
+	height: 600px;
+	width: 90%;
+	border-radius: 40px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	padding-top: 60px;
+	color: black;
+}
+.home img {
+	width: 400px;
+	height: 480px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	margin-left: 170px;
+}
+.home  h4 {
+	padding: 30px 0;
+}
+/* .home input {
+	border: 1px solid rgba(128, 128, 128, 0.805);
+	border-radius: 30px;
+	padding: 10px;
+	outline: none;
+	height: 50px;
+	width: 250px;
+} */
+.home button {
+	border: none;
+	border-radius: 30px;
+	height: 50px;
+	width: 190px;
+	/* padding: 7px; */
+	/* position: absolute;
+	left: 220px; */
+	background-color: rgb(247, 132, 170);
+	color: white;
+}
+/* ====================================Content============================================= */
+/* ======================================================================================== */
+/* ======================================Trend============================================ */
+.trend {
+	height: 640px;
+	background-color: #0d79a0;
+	border-radius: 40px;
+	margin-top: 20px;
+	padding: 50px;
+	
+}
+.trend-title {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+.trend-title button {
+	padding: 10px;
+	width: 100px;
+	height: 43px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(247, 132, 170);
+	font-size: 16px;
+	color: white;
+}
+.trend-title button:hover {
+	background-color: rgba(216, 112, 147, 0.904);
+	transition: 0.3s;
+}
+.trend-card {
+	margin-top: 30px;
+	width: 250px;
+	height: 440px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 32px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+	color: black;
+	text-align: center;
+}
+.trend-card:hover {
+	margin: 5px;
+	box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.3);
+	transition: all 0.5s ease-in-out;
+}
+.trend-card img {
+	border-radius: 30px 30px 0 0;
+	width: 100%;
+	height: 60%;
+}
+.card-info {
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cards {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+/* ==================================Trend=================================================== */
+/* ===================================================================================== */
+/* ==================================Categories=================================================== */
+.category {
+	margin-top: 25px;
+	height: 640px;
+	padding: 50px;
+	color: black;
+}
+.category-title {
+	display: flex;
+	justify-content: space-between;
+}
+.category-title button {
+	padding: 10px;
+	width: 100px;
+	height: 44px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(247, 132, 170);
+	font-size: 16px;
+	color: white;
+}
+.category-title button:hover {
+	background-color: rgba(216, 112, 147, 0.904);
+	transition: 0.3s;
+}
+.category .trend-card{
+height: 440px;
+background-color: rgb(247, 132, 170);
+color: white;
+}
+.category img{
+	height: 78%;
+	border-radius: 20px;
+}
+.category h2{
+	padding-top: 25px;
+}
+/* ==================================Categories=================================================== */
+/* ================================================================================================ */
+/* ============================================================================================= */
+/* Sign in Page */
+.signin {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box,
+.boxUp {
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	border-radius: 30px;
+	color: #0d79a0;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.37);
+}
+.box h2,
+.boxUp h2 {
+	text-align: center;
+	padding-top: 15px;
+}
+.inputs {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.inputs h5 {
+	margin-top: 15px;
+}
+.inputs input {
+	margin-top: 5px;
+	border: 1px solid rgba(128, 128, 128, 0.805);
+	border-radius: 20px;
+	padding: 10px;
+	outline: none;
+	height: 40px;
+	width: 430px;
+}
+.inputs a {
+	margin-top: 10px;
+	color: black;
+	text-decoration: underline;
+}
+.buttonSign {
+	padding: 10px;
+	width: 100px;
+	height: 44px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(247, 132, 170);
+	font-size: 16px;
+	margin: auto;
+	margin-top: 20px;
+	color: white;
+}
+/* =================================================================================== */
+/* ====================================================================================*/
+/* ====================================SignUp============================================ */
+.signUp {
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boxUp {
+	height: 630px;
+}
+/* =================================================================================== */
+/* =================================================================================== */
+/* ================================= About page ========================================*/
+/* .about-header {
+	height: 800px;
+} */
+.about-caption {
+	color: #0d79a0;
+	text-align: center;
+	padding: 10px;
+}
+.about-card {
+	
+	width: 400px;
+	height: 400px;
+	background-color: #0d79a0;
+	border-radius: 20px;
+	padding: 23px;
+	color: white;
+	text-align: center;
+	margin: 40px;
+}
+
+.about-card h4 {
+	font-size: large;
+	padding-top: 10px;
+	line-height: 27px;
+}
+
