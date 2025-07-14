@@ -1,0 +1,22 @@
+{
+    "categories":
+    [
+        {
+        "title": "Beauty",
+        "images":["https://i.pinimg.com/736x/9f/1d/a4/9f1da4e5426c7d353352748da9b6667b.jpg"]
+    },
+        {
+        "title": "Fragrances",
+        "images":["https://i.pinimg.com/736x/bf/5c/3e/bf5c3eb45b4fcc07ac74d4733c09b607.jpg"]
+    },
+        {
+        "title": "Furniture",
+        "images":["https://i.pinimg.com/736x/7e/d7/bc/7ed7bc295714daa46e282c17687994df.jpg"]
+    },
+        {
+        "title": "Groceries",
+        "images":["https://i.pinimg.com/736x/14/ef/a0/14efa01bdf95649ecb69720f8c2fa214.jpg"]
+    }
+
+    ]
+}
