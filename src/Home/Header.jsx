@@ -5,7 +5,7 @@ function Header() {
 	return (
 		<div>
 			<header>
-				<h1>Welcome to Deww's Website</h1>
+				<h1>Welcome to Deww's Store</h1>
 				<p>
 					If you haven’t ordered from us yet, create an account and place your
 					order now!

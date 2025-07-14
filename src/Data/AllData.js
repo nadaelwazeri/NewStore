@@ -7,9 +7,9 @@ const apiValue = createContext();
 function AllData({children}) {
     const [api, setApi] = useState([]);
     useEffect(() => {
-        axios.get("")
+        axios.get('https://dummyjson.com/products')
             .then((element) => {
-            setApi(element.data)
+            setApi(element.data.products)
         })
     },[]);
     return (
